@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f9af1c6015733a42be940cc462aa7ed, type: 3}
+  m_Name: Log 1
+  m_EditorClassIdentifier: 
+  pipeline: {fileID: 11400000, guid: 2647e3fc5765a414f894ef5cafeb079a, type: 2}
+  creationDate:
+    ticks: 638449206933857759
+  entries:
+  - logLevel: 2
+    internalTime:
+      ticks: 638449207006448602
+    message: '[Pipeline(2 - StageAssemblies)](assetlink://Assets%2fPipelines%2fPipeline.asset)[FishManifest](assetlink://Assets%2fFishermanMod%2fFishManifest.asset)
+      StageAssemblies terminated'
+    context:
+    - "Stacktrace\r\nStageAssemblies terminated\r\n\r\n  at ThunderKit.Core.Pipelines.Jobs.StageAssemblies+<Build>d__8.MoveNext
+      () [0x003bb] in [C:\\Users\\werty\\Desktop\\ROR2 Modding\\Thunderkit Real\\Library\\PackageCache\\com.passivepicasso.thunderkit@c63a5c279e\\Editor\\Core\\Pipelines\\Jobs\\StageAssemblies.cs:189](exceptionsource://C:\\Users\\werty\\Desktop\\ROR2
+      Modding\\Thunderkit Real\\Library\\PackageCache\\com.passivepicasso.thunderkit@c63a5c279e\\Editor\\Core\\Pipelines\\Jobs\\StageAssemblies.cs#189)
+      \r\n\r\n--- End of stack trace from previous location where exception was thrown
+      ---\r\n\r\n  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw
+      () [0x0000c] in <eae584ce26bc40229c1b1aa476bfa589>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess
+      (System.Threading.Tasks.Task task) [0x0003e] in <eae584ce26bc40229c1b1aa476bfa589>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification
+      (System.Threading.Tasks.Task task) [0x00028] in <eae584ce26bc40229c1b1aa476bfa589>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task
+      task) [0x00008] in <eae584ce26bc40229c1b1aa476bfa589>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.GetResult
+      () [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 \r\n\r\n  at ThunderKit.Core.Pipelines.Jobs.StageAssemblies+<Execute>d__7.MoveNext
+      () [0x00254] in [C:\\Users\\werty\\Desktop\\ROR2 Modding\\Thunderkit Real\\Library\\PackageCache\\com.passivepicasso.thunderkit@c63a5c279e\\Editor\\Core\\Pipelines\\Jobs\\StageAssemblies.cs:126](exceptionsource://C:\\Users\\werty\\Desktop\\ROR2
+      Modding\\Thunderkit Real\\Library\\PackageCache\\com.passivepicasso.thunderkit@c63a5c279e\\Editor\\Core\\Pipelines\\Jobs\\StageAssemblies.cs#126)
+      \r\n\r\n--- End of stack trace from previous location where exception was thrown
+      ---\r\n\r\n  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw
+      () [0x0000c] in <eae584ce26bc40229c1b1aa476bfa589>:0 \r\n\r\n  at ThunderKit.Core.Pipelines.Jobs.StageAssemblies+<Execute>d__7.MoveNext
+      () [0x00331] in [C:\\Users\\werty\\Desktop\\ROR2 Modding\\Thunderkit Real\\Library\\PackageCache\\com.passivepicasso.thunderkit@c63a5c279e\\Editor\\Core\\Pipelines\\Jobs\\StageAssemblies.cs:132](exceptionsource://C:\\Users\\werty\\Desktop\\ROR2
+      Modding\\Thunderkit Real\\Library\\PackageCache\\com.passivepicasso.thunderkit@c63a5c279e\\Editor\\Core\\Pipelines\\Jobs\\StageAssemblies.cs#132)
+      \r\n\r\n--- End of stack trace from previous location where exception was thrown
+      ---\r\n\r\n  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw
+      () [0x0000c] in <eae584ce26bc40229c1b1aa476bfa589>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess
+      (System.Threading.Tasks.Task task) [0x0003e] in <eae584ce26bc40229c1b1aa476bfa589>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification
+      (System.Threading.Tasks.Task task) [0x00028] in <eae584ce26bc40229c1b1aa476bfa589>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task
+      task) [0x00008] in <eae584ce26bc40229c1b1aa476bfa589>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.GetResult
+      () [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 \r\n\r\n  at ThunderKit.Core.Pipelines.Pipeline+<ExecuteJob>d__47.MoveNext
+      () [0x0002a] in [C:\\Users\\werty\\Desktop\\ROR2 Modding\\Thunderkit Real\\Library\\PackageCache\\com.passivepicasso.thunderkit@c63a5c279e\\Editor\\Core\\Pipelines\\Pipeline.cs:281](exceptionsource://C:\\Users\\werty\\Desktop\\ROR2
+      Modding\\Thunderkit Real\\Library\\PackageCache\\com.passivepicasso.thunderkit@c63a5c279e\\Editor\\Core\\Pipelines\\Pipeline.cs#281)
+      \r\n\r\n--- End of stack trace from previous location where exception was thrown
+      ---\r\n\r\n  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw
+      () [0x0000c] in <eae584ce26bc40229c1b1aa476bfa589>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess
+      (System.Threading.Tasks.Task task) [0x0003e] in <eae584ce26bc40229c1b1aa476bfa589>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification
+      (System.Threading.Tasks.Task task) [0x00028] in <eae584ce26bc40229c1b1aa476bfa589>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task
+      task) [0x00008] in <eae584ce26bc40229c1b1aa476bfa589>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.GetResult
+      () [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 \r\n\r\n  at ThunderKit.Core.Pipelines.Pipeline+<ExecuteManifestLoop>d__51.MoveNext
+      () [0x00085] in [C:\\Users\\werty\\Desktop\\ROR2 Modding\\Thunderkit Real\\Library\\PackageCache\\com.passivepicasso.thunderkit@c63a5c279e\\Editor\\Core\\Pipelines\\Pipeline.cs:295](exceptionsource://C:\\Users\\werty\\Desktop\\ROR2
+      Modding\\Thunderkit Real\\Library\\PackageCache\\com.passivepicasso.thunderkit@c63a5c279e\\Editor\\Core\\Pipelines\\Pipeline.cs#295)
+      \r\n\r\n--- End of stack trace from previous location where exception was thrown
+      ---\r\n\r\n  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw
+      () [0x0000c] in <eae584ce26bc40229c1b1aa476bfa589>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess
+      (System.Threading.Tasks.Task task) [0x0003e] in <eae584ce26bc40229c1b1aa476bfa589>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification
+      (System.Threading.Tasks.Task task) [0x00028] in <eae584ce26bc40229c1b1aa476bfa589>:0
+      \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task
+      task) [0x00008] in <eae584ce26bc40229c1b1aa476bfa589>:0 \r\n\r\n  at System.Runtime.CompilerServices.TaskAwaiter.GetResult
+      () [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 \r\n\r\n  at ThunderKit.Core.Pipelines.Pipeline+<Execute>d__44.MoveNext
+      () [0x003ae] in [C:\\Users\\werty\\Desktop\\ROR2 Modding\\Thunderkit Real\\Library\\PackageCache\\com.passivepicasso.thunderkit@c63a5c279e\\Editor\\Core\\Pipelines\\Pipeline.cs:225](exceptionsource://C:\\Users\\werty\\Desktop\\ROR2
+      Modding\\Thunderkit Real\\Library\\PackageCache\\com.passivepicasso.thunderkit@c63a5c279e\\Editor\\Core\\Pipelines\\Pipeline.cs#225) "
+  - logLevel: 2
+    internalTime:
+      ticks: 638449207006112495
+    message: '[Pipeline(2 - StageAssemblies)](assetlink://Assets%2fPipelines%2fPipeline.asset)[FishManifest](assetlink://Assets%2fFishermanMod%2fFishManifest.asset)
+      Build Failed: ``` ThunderKit/Libraries/FishermnaAsmDef.dll ``` with 1 errors.'
+    context:
+    - 'Assets\FishermanMod\FishermanModMain.cs (4:14)
+
+      [Assets\FishermanMod\FishermanModMain.cs(4,14):
+      error CS1002: ; expected](exceptionsource://C:\Users\werty\Desktop\ROR2 Modding\Thunderkit
+      Real\Assets\FishermanMod\FishermanModMain.cs#4)'
+  - logLevel: 0
+    internalTime:
+      ticks: 638449206998025051
+    message: '[Pipeline(2 - StageAssemblies)](assetlink://Assets%2fPipelines%2fPipeline.asset)[FishManifest](assetlink://Assets%2fFishermanMod%2fFishManifest.asset)
+      Building : ThunderKit/Libraries/FishermnaAsmDef.dll'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638449206996759331
+    message: '[Pipeline(2 - StageAssemblies)](assetlink://Assets%2fPipelines%2fPipeline.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638449206942683572
+    message: '[Pipeline(1 - StageAssetBundles)](assetlink://Assets%2fPipelines%2fPipeline.asset)[FishManifest](assetlink://Assets%2fFishermanMod%2fFishManifest.asset)
+      Creating 1 AssetBundles'
+    context:
+    - 'FishermanExtras AssetBundle
+
+      [breaking bad](assetlink://Assets%2fFishermanMod%2fAssets+Bundle+Folder%2fbreaking+bad.jpg)
+
+      
+
+      
+
+'
+  - logLevel: 3
+    internalTime:
+      ticks: 638449206937280735
+    message: '[Pipeline(1 - StageAssetBundles)](assetlink://Assets%2fPipelines%2fPipeline.asset)
+      Execute Job'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638449206937250741
+    message: '[Pipeline(0 - StageManifestFiles)](assetlink://Assets%2fPipelines%2fPipeline.asset)[FishManifest](assetlink://Assets%2fFishermanMod%2fFishManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638449206937216827
+    message: '[Pipeline(0 - StageManifestFiles)](assetlink://Assets%2fPipelines%2fPipeline.asset)[FishManifest](assetlink://Assets%2fFishermanMod%2fFishManifest.asset)
+      Clearing PipelineJob error states'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638449206934794136
+    message: '[Pipeline(0 - StageManifestFiles)](assetlink://Assets%2fPipelines%2fPipeline.asset)[FishManifest](assetlink://Assets%2fFishermanMod%2fFishManifest.asset)
+      Execute Pipeline'
+    context: []

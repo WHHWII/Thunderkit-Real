@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1699168291
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 645780293450344962ea59194d90ac2c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7859cd501ea75098bcf7e53f1b477c26
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/FishermanMod/Assets Bundle Folder/breaking bad.jpg
+Dependencies: []

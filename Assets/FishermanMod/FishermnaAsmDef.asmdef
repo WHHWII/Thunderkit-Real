@@ -44,7 +44,7 @@
         "R2API.TempVisualEffect.dll",
         "R2API.Unlockable.dll",
         "RoR2BepInExPack.dll",
-        ""
+        "HGCSharpUtils.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": [],

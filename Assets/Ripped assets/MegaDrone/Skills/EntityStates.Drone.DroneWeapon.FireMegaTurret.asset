@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 89795172, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: EntityStates.Drone.DroneWeapon.FireMegaTurret
+  m_EditorClassIdentifier:
+  targetType:
+    assemblyQualifiedName: EntityStates.Drone.DroneWeapon.FireMegaTurret, RoR2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  serializedFieldsCollection:
+    serializedFields:
+    - fieldName: effectPrefab
+      fieldValue:
+        stringValue:
+        objectValue: {fileID: 1010427316538929, guid: 167e173632705ed489de43358675a0e5, type: 2}
+    - fieldName: hitEffectPrefab
+      fieldValue:
+        stringValue:
+        objectValue: {fileID: 1838463376126995, guid: f67197a3011c52c48b939520d233229d, type: 2}
+    - fieldName: tracerEffectPrefab
+      fieldValue:
+        stringValue:
+        objectValue: {fileID: 1929082693515252, guid: 6db4621bfecb8fa4a8d61894c3fddfc2, type: 2}
+    - fieldName: attackSoundString
+      fieldValue:
+        stringValue: Play_commando_M1
+        objectValue: {fileID: 0}
+    - fieldName: attackSoundPlaybackCoefficient
+      fieldValue:
+        stringValue: 1.5
+        objectValue: {fileID: 0}
+    - fieldName: damageCoefficient
+      fieldValue:
+        stringValue: 2.2
+        objectValue: {fileID: 0}
+    - fieldName: force
+      fieldValue:
+        stringValue: 400
+        objectValue: {fileID: 0}
+    - fieldName: minSpread
+      fieldValue:
+        stringValue: 0
+        objectValue: {fileID: 0}
+    - fieldName: maxSpread
+      fieldValue:
+        stringValue: 1
+        objectValue: {fileID: 0}
+    - fieldName: maxBulletCount
+      fieldValue:
+        stringValue: 15
+        objectValue: {fileID: 0}
+    - fieldName: baseTotalDuration
+      fieldValue:
+        stringValue: 2
+        objectValue: {fileID: 0}

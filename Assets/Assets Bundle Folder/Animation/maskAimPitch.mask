@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: maskAimPitch
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Cylinder.002
+    m_Weight: 1
+  - m_Path: FisherManArmaturre
+    m_Weight: 0
+  - m_Path: FisherManArmaturre/Case
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/Case/CaseBottom
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/PoleBase
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/PoleBase/Pole1
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/PoleBase/Pole1/Pole2
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/PoleBase/Pole1/Pole2/Pole3
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/PoleBase/Pole1/Pole2/Pole3/Pole4
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/PoleBase/Pole1/Pole2/Pole3/Pole4/PoleHook
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/PoleBase/Pole1/Pole2/Pole3/Pole4/SmearB4
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/PoleBase/Pole1/Pole2/Pole3/Pole4/SmearF4
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/PoleBase/Pole1/Pole2/Pole3/SmearB3
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/PoleBase/Pole1/Pole2/Pole3/SmearF3
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/PoleBase/Pole1/Pole2/SmearB2
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/PoleBase/Pole1/Pole2/SmearF2
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/PoleBase/Pole1/SmearB1
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/PoleBase/Pole1/SmearF1
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/PoleBase/PoleHandle
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT
+    m_Weight: 0
+  - m_Path: FisherManArmaturre/ROOT/FootIK.L
+    m_Weight: 0
+  - m_Path: FisherManArmaturre/ROOT/FootIK.L/Foot.L
+    m_Weight: 0
+  - m_Path: FisherManArmaturre/ROOT/FootIK.R
+    m_Weight: 0
+  - m_Path: FisherManArmaturre/ROOT/FootIK.R/Foot.R
+    m_Weight: 0
+  - m_Path: FisherManArmaturre/ROOT/KneeIK.L
+    m_Weight: 0
+  - m_Path: FisherManArmaturre/ROOT/KneeIK.R
+    m_Weight: 0
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK
+    m_Weight: 0
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/ElbowIK.L
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/ElbowIK.R
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/HandIK.L
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/HandIK.R
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Hips
+    m_Weight: 0
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Hips/UpperLeg.L
+    m_Weight: 0
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Hips/UpperLeg.L/LowerLeg.L
+    m_Weight: 0
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Hips/UpperLeg.R
+    m_Weight: 0
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Hips/UpperLeg.R/LowerLeg.R
+    m_Weight: 0
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1
+    m_Weight: 0
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Head
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Head/Hat
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.L
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.L/UpperArm.L
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.L/UpperArm.L/LowerArm.L
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Bottle
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Finger1.L
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Finger1.L/Finger2.L
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Finger1.L/Finger2.L/Finger3.L
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Index1.L
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Index1.L/Index2.L
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Index1.L/Index2.L/Index3.L
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Middle1.L
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Middle1.L/Middle2.L
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Middle1.L/Middle2.L/Middle3.L
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Ring1.L
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Ring1.L/Ring2.L
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Ring1.L/Ring2.L/Ring3.L
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L/Thumb2.L
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.R
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.R/UpperArm.R
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.R/UpperArm.R/LowerArm.R
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Finger1.R
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Finger1.R/Finger2.R
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Finger1.R/Finger2.R/Finger3.R
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Index1.R
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Index1.R/Index2.R
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Index1.R/Index2.R/Index3.R
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Middle1.R
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Middle1.R/Middle2.R
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Middle1.R/Middle2.R/Middle3.R
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Ring1.R
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Ring1.R/Ring2.R
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Ring1.R/Ring2.R/Ring3.R
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R
+    m_Weight: 1
+  - m_Path: FisherManArmaturre/ROOT/ROOTIK/Spine1/Spine2/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R/Thumb2.R
+    m_Weight: 1
+  - m_Path: FishermanMesh
+    m_Weight: 1
+  - m_Path: FishingRodMesh
+    m_Weight: 1
+  - m_Path: Roundcube.003
+    m_Weight: 1

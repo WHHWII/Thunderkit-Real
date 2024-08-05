@@ -14,11 +14,12 @@ GameObject:
   - component: {fileID: 7865368498995746362}
   - component: {fileID: 7865368498995746341}
   - component: {fileID: 7865368498995746340}
+  - component: {fileID: 4426348539360966561}
+  - component: {fileID: 7865368498995746349}
   - component: {fileID: 7865368498995746343}
   - component: {fileID: 7865368498995746336}
   - component: {fileID: 7865368498995746339}
   - component: {fileID: 7865368498995746338}
-  - component: {fileID: 7865368498995746349}
   m_Layer: 0
   m_Name: ShantyPlatformMaster
   m_TagString: Untagged
@@ -153,6 +154,31 @@ MonoBehaviour:
   mainStateType:
     _typeName: EntityStates.AI.Walker.Combat, RoR2, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
+--- !u!114 &4426348539360966561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7865368498995746348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1218053310, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7865368498995746349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7865368498995746348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2005973111, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ownerMaster: {fileID: 0}
 --- !u!114 &7865368498995746343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,10 +191,10 @@ MonoBehaviour:
   m_Script: {fileID: -1811796171, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customName: ReturnToLeader
-  skillSlot: -1
-  requiredSkill: {fileID: 0}
-  requireSkillReady: 0
+  customName: FireGun
+  skillSlot: 0
+  requiredSkill: {fileID: 11400000, guid: ee6b9c3e3969ae94385aaed8c26151bd, type: 2}
+  requireSkillReady: 1
   requireEquipmentReady: 0
   minUserHealthFraction: -Infinity
   maxUserHealthFraction: Infinity
@@ -176,22 +202,22 @@ MonoBehaviour:
   maxTargetHealthFraction: Infinity
   minDistance: 110
   maxDistance: Infinity
-  selectionRequiresTargetLoS: 0
+  selectionRequiresTargetLoS: 1
   selectionRequiresOnGround: 0
-  selectionRequiresAimTarget: 0
+  selectionRequiresAimTarget: 1
   maxTimesSelected: -1
-  moveTargetType: 2
+  moveTargetType: 3
   activationRequiresTargetLoS: 0
   activationRequiresAimTargetLoS: 0
   activationRequiresAimConfirmation: 0
   movementType: 1
   moveInputScale: 1
   aimType: 2
-  ignoreNodeGraph: 0
-  shouldSprint: 1
+  ignoreNodeGraph: 1
+  shouldSprint: 0
   shouldFireEquipment: 0
   shouldTapButton: 0
-  buttonPressType: 0
+  buttonPressType: 2
   driverUpdateTimerOverride: 5
   resetCurrentEnemyOnNextDriverSelection: 1
   noRepeat: 0
@@ -208,7 +234,7 @@ MonoBehaviour:
   m_Script: {fileID: -1811796171, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customName: ReturnToLeader
+  customName: MoveTo
   skillSlot: -1
   requiredSkill: {fileID: 0}
   requireSkillReady: 0
@@ -223,7 +249,7 @@ MonoBehaviour:
   selectionRequiresOnGround: 0
   selectionRequiresAimTarget: 0
   maxTimesSelected: -1
-  moveTargetType: 2
+  moveTargetType: 3
   activationRequiresTargetLoS: 0
   activationRequiresAimTargetLoS: 0
   activationRequiresAimConfirmation: 0
@@ -266,13 +292,13 @@ MonoBehaviour:
   selectionRequiresOnGround: 0
   selectionRequiresAimTarget: 0
   maxTimesSelected: -1
-  moveTargetType: 2
+  moveTargetType: 3
   activationRequiresTargetLoS: 0
   activationRequiresAimTargetLoS: 0
   activationRequiresAimConfirmation: 0
   movementType: 0
   moveInputScale: 1
-  aimType: 3
+  aimType: 0
   ignoreNodeGraph: 0
   shouldSprint: 0
   shouldFireEquipment: 0
@@ -294,16 +320,3 @@ MonoBehaviour:
   m_Script: {fileID: -1578512655, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7865368498995746349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7865368498995746348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -2005973111, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ownerMaster: {fileID: 0}

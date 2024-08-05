@@ -96,16 +96,16 @@ GameObject:
   m_Component:
   - component: {fileID: 7875503533580913485}
   - component: {fileID: 7875503533580913482}
-  - component: {fileID: 7875503533580913483}
   - component: {fileID: 7875503533580913480}
+  - component: {fileID: 7875503533580913493}
+  - component: {fileID: 7875503533580913491}
+  - component: {fileID: 7875503533580913483}
+  - component: {fileID: 7875503533580913492}
   - component: {fileID: 7875503533580913481}
+  - component: {fileID: 7875503533580913488}
+  - component: {fileID: 7875503533580913490}
   - component: {fileID: 7875503533580913494}
   - component: {fileID: 7875503533580913495}
-  - component: {fileID: 7875503533580913492}
-  - component: {fileID: 7875503533580913493}
-  - component: {fileID: 7875503533580913490}
-  - component: {fileID: 7875503533580913491}
-  - component: {fileID: 7875503533580913488}
   m_Layer: 0
   m_Name: FishermanHookProjectile
   m_TagString: Untagged
@@ -163,19 +163,6 @@ MonoBehaviour:
     i15: 0
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 1
---- !u!114 &7875503533580913483
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7875503533580913489}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1895344032, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultTeam: -1
 --- !u!114 &7875503533580913480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -191,7 +178,7 @@ MonoBehaviour:
   catalogIndex: -1
   ghostPrefab: {fileID: 5093942512802237575, guid: 868747095fcfe154b99142aa2cb7c14e,
     type: 3}
-  ghostTransformAnchor: {fileID: 7875503533580913485}
+  ghostTransformAnchor: {fileID: 0}
   startSound: 
   cannotBeDeleted: 1
   flightSoundLoop: {fileID: 0}
@@ -199,6 +186,76 @@ MonoBehaviour:
   allowPrediction: 1
   owner: {fileID: 0}
   procCoefficient: 1
+--- !u!114 &7875503533580913493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7875503533580913489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -270136354, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positionTransmitInterval: 0.033333335
+  interpolationFactor: 1
+  allowClientsideCollision: 0
+--- !u!114 &7875503533580913491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7875503533580913489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1819008361, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifetime: 1e+18
+  lifetimeExpiredEffect: {fileID: 0}
+  desiredForwardSpeed: 80
+  updateAfterFiring: 0
+  enableVelocityOverLifetime: 0
+  velocityOverLifetime:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  oscillate: 0
+  oscillateMagnitude: 20
+  oscillateSpeed: 0
+--- !u!114 &7875503533580913483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7875503533580913489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1895344032, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultTeam: -1
+--- !u!54 &7875503533580913492
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7875503533580913489}
+  serializedVersion: 2
+  m_Mass: 100
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 112
+  m_CollisionDetection: 1
 --- !u!114 &7875503533580913481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -218,6 +275,40 @@ MonoBehaviour:
   damageType: 1
   useDotMaxStacksFromAttacker: 0
   dotMaxStacksFromAttacker: 4294967295
+--- !u!136 &7875503533580913488
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7875503533580913489}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 1.5
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0.45}
+--- !u!114 &7875503533580913490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7875503533580913489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 664490745, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickSoundString: 
+  stickParticleSystem: []
+  ignoreCharacters: 0
+  ignoreWorld: 0
+  alignNormals: 0
+  stickEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &7875503533580913494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,97 +348,6 @@ MonoBehaviour:
       m_Calls: []
   fireFrequency: 60
   resetInterval: -1
---- !u!54 &7875503533580913492
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7875503533580913489}
-  serializedVersion: 2
-  m_Mass: 100
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 1
-  m_Constraints: 0
-  m_CollisionDetection: 2
---- !u!114 &7875503533580913493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7875503533580913489}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -270136354, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  positionTransmitInterval: 0.033333335
-  interpolationFactor: 1
-  allowClientsideCollision: 0
---- !u!114 &7875503533580913490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7875503533580913489}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 664490745, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stickSoundString: 
-  stickParticleSystem: []
-  ignoreCharacters: 0
-  ignoreWorld: 0
-  alignNormals: 0
-  stickEvent:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &7875503533580913491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7875503533580913489}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1819008361, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lifetime: 1e+18
-  lifetimeExpiredEffect: {fileID: 0}
-  desiredForwardSpeed: 80
-  updateAfterFiring: 0
-  enableVelocityOverLifetime: 0
-  velocityOverLifetime:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  oscillate: 0
-  oscillateMagnitude: 20
-  oscillateSpeed: 0
---- !u!136 &7875503533580913488
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7875503533580913489}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.36880058
-  m_Height: 1.430026
-  m_Direction: 2
-  m_Center: {x: 0, y: 0, z: 0.45}
 --- !u!1 &8002369114220273312
 GameObject:
   m_ObjectHideFlags: 0

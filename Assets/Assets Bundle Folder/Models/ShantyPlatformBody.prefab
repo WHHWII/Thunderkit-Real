@@ -108,10 +108,11 @@ GameObject:
   - component: {fileID: 684378450728004438}
   - component: {fileID: 684378450728004439}
   - component: {fileID: 2264335756938167709}
-  - component: {fileID: 5252043877077576175}
-  - component: {fileID: 2207945237230891802}
-  - component: {fileID: 7785304532133760838}
-  - component: {fileID: 9014714109842354018}
+  - component: {fileID: -8243895507508258001}
+  - component: {fileID: -6248337174637632721}
+  - component: {fileID: 6433354631963331570}
+  - component: {fileID: 4396138501846924921}
+  - component: {fileID: 1718388616271296777}
   m_Layer: 0
   m_Name: ShantyPlatformBody
   m_TagString: Untagged
@@ -277,7 +278,7 @@ MonoBehaviour:
   m_Script: {fileID: -1549848242, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveVector: {x: 0, y: 0, z: 0}
+  moveVector: {x: 0, y: 5, z: 0}
 --- !u!114 &684378450728004441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -599,30 +600,12 @@ Rigidbody:
   m_Mass: 300
   m_Drag: 1
   m_AngularDrag: 0.02
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &5252043877077576175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 684378450728004427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -2053006600, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  customName: Angular Velocity PID
-  PID: {x: 3, y: 0.1, z: 0}
-  inputQuat: {x: 0, y: 0, z: 0, w: 1}
-  targetQuat: {x: 0, y: 0, z: 0, w: 1}
-  outputVector: {x: 0, y: 0, z: 0}
-  gain: 1
---- !u!114 &2207945237230891802
+--- !u!114 &-8243895507508258001
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -635,36 +618,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customName: torquePID
-  PID: {x: 3, y: 0.1, z: 0}
+  PID: {x: 1, y: 1, z: 0}
   inputVector: {x: 0, y: 0, z: 0}
   targetVector: {x: 0, y: 0, z: 0}
   outputVector: {x: 0, y: 0, z: 0}
   isAngle: 0
   gain: 1
---- !u!114 &7785304532133760838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 684378450728004427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1954827382, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  aimDirection: {x: 1, y: 1, z: 1}
-  rigid: {fileID: 2264335756938167709}
-  angularVelocityPID: {fileID: 5252043877077576175}
-  torquePID: {fileID: 2207945237230891802}
-  freezeXRotation: 1
-  freezeYRotation: 0
-  freezeZRotation: 1
-  animatorXCycle: 
-  animatorYCycle: 
-  animatorZCycle: 
-  animatorTorqueScale: 0
---- !u!114 &9014714109842354018
+--- !u!114 &-6248337174637632721
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -678,14 +638,74 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveVector: {x: 0, y: 0, z: 0}
   rigid: {fileID: 2264335756938167709}
-  forcePID: {fileID: 2207945237230891802}
+  forcePID: {fileID: 1718388616271296777}
   centerOfMassOffset: {x: 0, y: 0, z: 0}
-  animatorForward: 
-  animatorRight: 
-  animatorUp: 
+  animatorForward: forward
+  animatorRight: right
+  animatorUp: up
   enableOverrideMoveVectorInLocalSpace: 0
   canTakeImpactDamage: 1
   overrideMoveVectorInLocalSpace: {x: 0, y: 0, z: 0}
+--- !u!114 &6433354631963331570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684378450728004427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2053006600, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customName: Angular Velocity PID
+  PID: {x: 5, y: 0.1, z: 0}
+  inputQuat: {x: 0, y: 0, z: 0, w: 1}
+  targetQuat: {x: 0, y: 0, z: 0, w: 1}
+  outputVector: {x: 0, y: 0, z: 0}
+  gain: 0.5
+--- !u!114 &4396138501846924921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684378450728004427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1954827382, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aimDirection: {x: 1, y: 1, z: 1}
+  rigid: {fileID: 2264335756938167709}
+  angularVelocityPID: {fileID: 6433354631963331570}
+  torquePID: {fileID: -8243895507508258001}
+  freezeXRotation: 1
+  freezeYRotation: 0
+  freezeZRotation: 1
+  animatorXCycle: turnXCycle
+  animatorYCycle: 
+  animatorZCycle: 
+  animatorTorqueScale: 0.01
+--- !u!114 &1718388616271296777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684378450728004427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 52559370, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customName: forcePID
+  PID: {x: 3, y: 0, z: 0}
+  inputVector: {x: 0, y: 0, z: 0}
+  targetVector: {x: 0, y: 0, z: 0}
+  outputVector: {x: 0, y: 0, z: 0}
+  isAngle: 0
+  gain: 1
 --- !u!1 &919113590846939939
 GameObject:
   m_ObjectHideFlags: 0
@@ -842,6 +862,7 @@ MonoBehaviour:
   body: {fileID: 684378450728004262}
   itemDisplayRuleSet: {fileID: 0}
   autoPopulateLightInfos: 1
+  gameObjectActivationTransforms: []
   baseRendererInfos:
   - renderer: {fileID: 33143860529351532}
     defaultMaterial: {fileID: 0}
@@ -918,6 +939,8 @@ MonoBehaviour:
     transform: {fileID: 1787555820414366978}
   - name: Propeller
     transform: {fileID: 1638544264}
+  - name: MainHurtbox
+    transform: {fileID: 2300188152117159038}
 --- !u!114 &7233125839377099117
 MonoBehaviour:
   m_ObjectHideFlags: 0

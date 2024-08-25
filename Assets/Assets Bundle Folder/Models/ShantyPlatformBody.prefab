@@ -205,7 +205,7 @@ MonoBehaviour:
   baseMaxHealth: 500
   baseRegen: 0.2
   baseMaxShield: 0
-  baseMoveSpeed: 6
+  baseMoveSpeed: 8
   baseAcceleration: 60
   baseJumpPower: 16
   baseDamage: 16
@@ -214,7 +214,7 @@ MonoBehaviour:
   baseArmor: 20
   baseVisionDistance: Infinity
   baseJumpCount: 1
-  sprintingSpeedMultiplier: 1.45
+  sprintingSpeedMultiplier: 2
   autoCalculateLevelStats: 0
   levelMaxHealth: 60
   levelRegen: 0.02

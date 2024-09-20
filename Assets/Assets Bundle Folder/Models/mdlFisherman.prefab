@@ -239,6 +239,25 @@ MonoBehaviour:
     transform: {fileID: 8482598554615821814}
   - name: StabMuzzle
     transform: {fileID: 2492892362873224515}
+--- !u!114 &7868016798806387065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5384445928338120882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -517518216, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bones:
+  - {fileID: 3762108031537085626}
+  - {fileID: 2997235202898826853}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  componentsToDisableOnRagdoll: []
 --- !u!1 &7423839881458489141
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,6 +407,18 @@ Transform:
 --- !u!4 &7525620416377326159 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3316992658331686828, guid: 2f44598ec7bbc2d43805189f72cab74a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5077822713841147363}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2997235202898826853 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8061545946942393222, guid: 2f44598ec7bbc2d43805189f72cab74a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5077822713841147363}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3762108031537085626 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8236447688170676569, guid: 2f44598ec7bbc2d43805189f72cab74a,
     type: 3}
   m_PrefabInstance: {fileID: 5077822713841147363}
   m_PrefabAsset: {fileID: 0}
